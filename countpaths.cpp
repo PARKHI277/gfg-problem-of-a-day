@@ -3,7 +3,9 @@
 #include<vector>
 #include<algorithm>
 
- class Solution {
+ 
+
+class Solution {
     int ans = 0;
     public:
     	int possible_paths(vector<vector<int>>edges, int n, int s, int d){
