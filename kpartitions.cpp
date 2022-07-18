@@ -4,7 +4,7 @@
 #include<algorithm>
 using namespace std;
 #include<queue>
-struct Node
+
 
 bool isKPartitionPossibleRec(int arr[], int subsetSum[], bool taken[],
                    int subset, int K, int N, int curIdx, int limitIdx)
